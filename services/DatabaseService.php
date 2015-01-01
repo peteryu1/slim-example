@@ -10,8 +10,8 @@ class DatabaseService {
 
     private static function initConnection() {
         $dbhost = "localhost";
-        $dbuser = "acv";
-        $dbpass = "acv";
+        $dbuser = "yourusername";
+        $dbpass = "yourpassword";
         $dbname = "testing";
         $dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
